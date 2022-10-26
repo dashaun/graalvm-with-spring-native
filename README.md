@@ -27,5 +27,5 @@ Originally Chicago Java Users Group (CJUG), April 25, 2022
 ## Development
 
 ```shell
-docker run --name graalvm-with-spring-native --rm -v $PWD/src/main/resources/static/:/usr/share/nginx/html:ro -d -p 8080:80 nginx
+docker run --name seattle --rm -v $PWD/src/main/resources/static/:/usr/share/nginx/html:ro -d -p 8088:80 nginx
 ```
